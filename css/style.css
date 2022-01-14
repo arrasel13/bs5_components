@@ -1,0 +1,96 @@
+.rh{
+	min-height: 300px;
+}
+
+/*Custom Slider 1 CSS start*/
+.bgimage{
+	background-image: url(../images/img_1.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.custom_slider{
+	padding: 70px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.custom_slider h3{
+	font-size: 30px;
+    margin-top: 30px;
+}
+.custom_slider p{
+	font-size: 20px;
+    margin: 50px 0;
+    line-height: 1.5;
+}
+.custom_slider button{
+	margin-bottom: 70px;
+}
+
+.custom-indicators {
+    bottom: 35px;
+}
+
+.custom-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.custom-indicators button {
+    background-color: #200303 !important;
+}
+
+.custom-indicators .active {
+    background-color: white !important;
+}
+/*Custom Slider 1 CSS end*/
+
+
+/*Custom Slider 2 CSS start*/
+.c-prev {
+    left: 86%;
+}
+
+.c-next {
+    right: 4%;
+}
+
+.c-prev, .c-next {
+    top: 85%;
+    width: 5%;
+}
+
+.c-prev-icon, .c-next-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.c_indicators {
+    right: 80%;
+    bottom: 40%;
+    left: -12%;
+    display: block;
+}
+
+.c_indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.c_indicators button {
+    background-color: #200303 !important;
+}
+
+.c_indicators .active {
+    background-color: white !important;
+}
+/*Custom Slider 2 CSS end*/
+
